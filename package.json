@@ -1,0 +1,26 @@
+{
+  "name": "mission-control",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-server": "npm --prefix server install",
+    "install-client": "npm --prefix client install",
+    "install": "npm --prefix client install && npm --prefix server install",
+    "server": "npm --prefix server run watch",
+    "client": "npm --prefix client start",
+    "watch":"npm run server & npm run client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aimkeys-Sir/InterStellar-Mission-Control-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aimkeys-Sir/InterStellar-Mission-Control-server/issues"
+  },
+  "homepage": "https://github.com/Aimkeys-Sir/InterStellar-Mission-Control-server#readme"
+}
