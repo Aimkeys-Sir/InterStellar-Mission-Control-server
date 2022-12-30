@@ -12,7 +12,7 @@ function isHabitablePlanet(planet) {
         && planet["pl_rade"] < 1.6
 }
 
-function loadPlanetsData() {
+const loadPlanetsData= ()=> {
     return new Promise((resolve,reject) => {
         
         fs.createReadStream(path.join(__dirname,'..','..','data','exoplanets_data.csv'))
