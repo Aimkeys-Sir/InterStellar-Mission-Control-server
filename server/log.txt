@@ -1,0 +1,99 @@
+[Function: parse]
+[Function: parse]
+[Function: parse]
+[Function: parse]
+[Function: parse]
+[Function: parse]
+[Function: parse]
+[Function: parse]
+Server listening on port 8000
+Server listening on port 8000
+Server listening on port 8000
+Server listening on port 8000
+Server listening on port 8000
+Server listening on port 8000
+Server listening on port 8000
+Server listening on port 8000
+::ffff:127.0.0.1 - - [30/Dec/2022:14:07:40 +0000] "GET / HTTP/1.1" 200 644 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:07:40 +0000] "GET /static/js/main.d52af267.js HTTP/1.1" 200 373995 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:07:40 +0000] "GET /static/css/main.4441dbf3.css HTTP/1.1" 200 824 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:07:40 +0000] "GET /icons/logo.svg HTTP/1.1" 200 4064 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:07:40 +0000] "GET /icon/checkmark.svg HTTP/1.1" 404 157 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:07:40 +0000] "GET /icons/time-forward.png HTTP/1.1" 200 2324 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:07:40 +0000] "GET /icons/time-back.png HTTP/1.1" 200 4970 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:07:40 +0000] "GET /icons/checkmark.svg HTTP/1.1" 200 588 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:07:40 +0000] "GET /images/spacecraft.png HTTP/1.1" 200 362700 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:07:40 +0000] "GET /icons/logo.svg HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:07:40 +0000] "GET /icon/checkmark.svg HTTP/1.1" 404 157 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:07:40 +0000] "GET /icons/time-forward.png HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:07:40 +0000] "GET /icons/time-back.png HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:07:40 +0000] "GET /icons/checkmark.svg HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:07:40 +0000] "GET /images/spacecraft.png HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:07:40 +0000] "GET /launches HTTP/1.1" 200 225 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:07:40 +0000] "GET /images/background.jpg HTTP/1.1" 200 238579 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:07:40 +0000] "GET /planets HTTP/1.1" 200 69864 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:07:40 +0000] "GET /logo192.png HTTP/1.1" 200 5347 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:07:40 +0000] "GET /favicon.ico HTTP/1.1" 200 3870 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:07:40 +0000] "GET /sounds/object.mp3 HTTP/1.1" 206 5040 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:07:40 +0000] "GET /sounds/toggle.mp3 HTTP/1.1" 206 3755 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:08:00 +0000] "POST /launches HTTP/1.1" 201 228 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:08:01 +0000] "GET /launches HTTP/1.1" 200 454 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:08:04 +0000] "GET /launches HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:08:04 +0000] "GET /planets HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:08:05 +0000] "GET /launches HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:08:07 +0000] "GET /launches HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:08:07 +0000] "GET /planets HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:08:42 +0000] "POST /launches HTTP/1.1" 201 229 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:08:43 +0000] "GET /launches HTTP/1.1" 200 455 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+[Function: parse]
+[Function: parse]
+[Function: parse]
+[Function: parse]
+[Function: parse]
+[Function: parse]
+[Function: parse]
+[Function: parse]
+Server listening on port 8000
+Server listening on port 8000
+Server listening on port 8000
+Server listening on port 8000
+Server listening on port 8000
+Server listening on port 8000
+Server listening on port 8000
+Server listening on port 8000
+::ffff:127.0.0.1 - - [30/Dec/2022:14:11:55 +0000] "GET / HTTP/1.1" 200 644 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:11:55 +0000] "GET /static/js/main.d52af267.js HTTP/1.1" 200 373995 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:11:55 +0000] "GET /static/css/main.4441dbf3.css HTTP/1.1" 200 824 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:11:55 +0000] "GET /icons/logo.svg HTTP/1.1" 200 4064 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:11:55 +0000] "GET /icon/checkmark.svg HTTP/1.1" 404 157 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:11:55 +0000] "GET /icons/time-forward.png HTTP/1.1" 200 2324 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:11:55 +0000] "GET /icons/time-back.png HTTP/1.1" 200 4970 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:11:55 +0000] "GET /images/spacecraft.png HTTP/1.1" 200 362700 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:11:55 +0000] "GET /icons/checkmark.svg HTTP/1.1" 200 588 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:11:55 +0000] "GET /icon/checkmark.svg HTTP/1.1" 404 157 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:11:55 +0000] "GET /launches HTTP/1.1" 200 225 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:11:55 +0000] "GET /planets HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:11:55 +0000] "GET /images/background.jpg HTTP/1.1" 200 238579 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:12:03 +0000] "GET /sounds/object.mp3 HTTP/1.1" 206 5040 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:12:11 +0000] "POST /launches HTTP/1.1" 201 222 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:12:13 +0000] "GET /launches HTTP/1.1" 200 448 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:12:25 +0000] "GET /planets HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:12:25 +0000] "GET /launches HTTP/1.1" 200 225 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:12:50 +0000] "POST /launches HTTP/1.1" 201 236 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:12:51 +0000] "GET /launches HTTP/1.1" 200 462 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:13:40 +0000] "GET /sounds/toggle.mp3 HTTP/1.1" 206 3755 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:13:41 +0000] "GET /launches HTTP/1.1" 200 225 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:13:46 +0000] "GET /launches HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:13:48 +0000] "GET /launches HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:13:48 +0000] "GET /planets HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:13:48 +0000] "GET /sounds/object.mp3 HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:13:50 +0000] "GET /launches HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:13:52 +0000] "GET /launches HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:19:42 +0000] "GET /launches HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:19:42 +0000] "GET /planets HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:19:42 +0000] "GET /sounds/toggle.mp3 HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:19:42 +0000] "GET /sounds/object.mp3 HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:19:43 +0000] "GET /launches HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:19:45 +0000] "GET /launches HTTP/1.1" 200 448 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:19:45 +0000] "GET /launches HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+::ffff:127.0.0.1 - - [30/Dec/2022:14:19:45 +0000] "GET /planets HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
