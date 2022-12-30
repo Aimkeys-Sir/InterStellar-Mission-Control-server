@@ -11,7 +11,7 @@
     "client": "npm --prefix client start",
     "watch":"npm run server & npm run client",
     "deploy":"npm --prefix client run build && npm --prefix server start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm --prefix server test && npm --prefix client test"
   },
   "repository": {
     "type": "git",
