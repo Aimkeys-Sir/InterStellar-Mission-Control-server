@@ -1,8 +1,8 @@
 const {getLaunches,postLaunch} = require('../../models/launches.model')
 const {validate,validateDate} = require('./helpers/validate')
 
-function httpGetLaunches(req,res){
-    return res.status(200).json(getLaunches())
+async function httpGetLaunches(req,res){
+    return res.status(200).json(await getLaunches())
 }
 function httpPostLaunches(req,res){
     const errors = []
