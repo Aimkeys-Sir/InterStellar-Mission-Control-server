@@ -1,4 +1,5 @@
-const { planets} = require('./planets.model')
+const planets = require('./planets.mongo')
+const launchesDatabase = require('./launches.mongo')
 
 const launches = new Map()
 
@@ -6,26 +7,41 @@ const launch = {
     mission_id: 2022001,
     launch_date: new Date(2024, 1, 24).toDateString(),
     ETA: new Date(2027, 3, 4).toDateString(),
-    arrival: "Future",
+    success: true,
     mission_name: "Zoe one",
     space_craft: "Falcon-9",
     destination: "Kepler-442 b",
     upcoming: true,
-    created_at: new Date().toDateString()
 }
 
-launches.set(launch.mission_id, launch)
+// launches.set(launch.mission_id, launch)
+upsertLaunches(launch)
 
+async function upsertLaunches(launch) {
 
-function getLaunches() {
-    return Array.from(launches.values())
+    const planet = await planets.findOne({
+        pl_name: launch.destination
+    })
+
+    if (!planet) {
+        throw new Error("That planet, I don't know about!")
+    }
+
+    await launchesDatabase.updateOne({
+        mission_id: launch.mission_id,
+        mission_name: launch.mission_name
+    },
+        launch,
+        { upsert: true }
+    )
+}
+
+async function getLaunches() {
+    return await launchesDatabase.find({}, '-_id -__v')
 }
 
 function postLaunch(mission) {
-
-   
-  
-    let ETA = calculateETA(planets.find(planet => planet.pl_name === mission["destination"]), mission["launch_date"])
+    let ETA = calculateETA(planets.find(mission["destination"], mission["launch_date"]))
     let launch = {
         ...mission,
         mission_id: setMissionId(mission.launch_date),
@@ -36,18 +52,18 @@ function postLaunch(mission) {
         ETA
     }
 
-    launches.set(launch.mission_id, launch)
+    upsertLaunches(launch)
     return launch
 }
 
-function setMissionId(launch_date) {
-    let size = String(launches.size + 1)
+async function setMissionId(launch_date) {
+    let size = String((await launchesDatabase.find({})).length + 1)
     size = "0".repeat(3 - size.length) + size
     return Number(new Date(launch_date).getFullYear() + size)
 }
 
-function calculateETA(planet, launchDate) {
-    let dist = Number(planet['sy_dist']) || 10
+async function calculateETA(destination, launchDate) {
+    let dist = Number((await planets.find({ pl_name: destination })))['sy_dist'] || 10
 
     const time = dist * 365.25 * 24 * 60 * 60 * 1000
 
