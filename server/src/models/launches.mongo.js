@@ -11,7 +11,6 @@ const launchesSchema = new mongoose.Schema({
     },
     ETA:{
         type: Date,
-        required: true
     },
     success:{
         type: Boolean,
@@ -28,7 +27,6 @@ const launchesSchema = new mongoose.Schema({
     },
     destination:{
         type: String,
-        required: true
     },
     upcoming:{
         type: Boolean,
